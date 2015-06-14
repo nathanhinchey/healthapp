@@ -1,0 +1,52 @@
+html, body, p {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.info {
+  float: left;
+  width: 700px;
+}
+
+.video-window {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+
+.text {
+  display: none;
+  float: left:
+  width: 300px;
+}
+
+.main-nav {
+  float: left;
+  width: 300px;
+}
+
+.text.active {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
