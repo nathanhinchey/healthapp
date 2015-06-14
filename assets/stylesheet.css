@@ -1,39 +1,5 @@
- html, body, p, h1, h2, h3, main,
- section, article, figure, button,
- ul, li, img, nav {
-   font: inherit;
-   background: transparent;
-   padding: 0;
-   box-sizing: border-box;
-   text-decoration: none;
-   list-style: none;
-   border: none;
-   margin: 0;
-}
-
-body {
+html, body, p {
   font-family: "Open Sans", sans-serif;
-  background: #EEE;
-  font-size: 16px;
-}
-
-.group::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-button {
-  border: 1px solid blue;
-  background: lightblue;
-  font-weight: bold;
-  padding: 0 5px;
-  border-radius: 5px;
-  margin: 5px 0;
-}
-
-li {
-  margin-left: 30px;
 }
 
 header {
@@ -41,7 +7,6 @@ header {
 }
 
 h1 {
-  font-size: 36px;
   text-align: center;
   margin: 0 auto;
 }
@@ -84,12 +49,4 @@ main {
 img {
   width: 100%;
   height: auto;
-}
-
-li li button {
-  background: #caf;
-}
-
-li li li button {
-  background: pink;
 }
