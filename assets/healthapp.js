@@ -19,10 +19,10 @@
   var navClick = function(event){
     event.preventDefault();
     var name = event.currentTarget.getAttribute("name");
-    if (hasClass(event.currentTarget, "nav")){
-      var subMenu = document.getElementsByClassName(name)[0];
-      toggleClass(subMenu, "hidden");
-    }
+    // if (hasClass(event.currentTarget, "nav")){
+    //   var subMenu = document.getElementsByClassName(name)[0];
+    //   toggleClass(subMenu, "hidden");
+    // }
     if (hasClass(event.currentTarget, "video")){
       document.getElementById("demo-image").src = "assets/images/" + name + ".jpg";
     }

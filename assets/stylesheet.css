@@ -32,7 +32,7 @@ main {
 }
 
 .text {
-  display: block;
+  display: none;
   float: left:
   width: 300px;
 }
